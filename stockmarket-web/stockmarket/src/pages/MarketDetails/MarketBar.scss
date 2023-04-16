@@ -1,0 +1,97 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @media screen and (min-width: 800px) {
+    h1 {
+      margin-left: 5vw;
+      color: #86868b;
+      font-family: "Arvo", serif;
+    }
+
+    .card {
+      width: 15vw;
+      margin-left: 5vw;
+      margin-top: 2vh;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      h2 {
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .cardContent {
+        margin-top: 1rem;
+      }
+      .btn {
+        margin-top: 1rem;
+        background-color: #b28228;
+        &:hover {
+          background: #ffb606;
+          color: black;
+        }
+      }
+    }
+
+    .delete {
+      margin-top: 2vh;
+      margin-left: 5vw;
+      background: rgba(211, 47, 47, 0.5);
+
+      &:hover {
+        background: #ffb606;
+        color: black;
+      }
+    }
+  }
+  @media screen and (max-width: 800px) {
+    h1 {
+      margin-left: 5vw;
+      font-size: 100%;
+      color: #86868b;
+      font-family: "Arvo", serif;
+    }
+
+    .card {
+      width: 20vw;
+      margin-left: 5vw;
+      margin-top: 2vh;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      h2 {
+        color: #000000;
+        font-size: 125%;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .cardContent {
+        margin-top: 1rem;
+      }
+      .btn {
+        margin-top: 1rem;
+        font-size: 50%;
+        background-color: #b28228;
+        &:hover {
+          background: #ffb606;
+          color: black;
+        }
+      }
+    }
+
+    .delete {
+      font-size: 50%;
+      margin-top: 2vh;
+      margin-left: 5vw;
+      background: rgba(211, 47, 47, 0.5);
+
+      &:hover {
+        background: #ffb606;
+        color: black;
+      }
+    }
+  }
+}

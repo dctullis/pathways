@@ -1,0 +1,23 @@
+.page{
+    margin-top: 5rem;
+    
+
+    .grid{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Exo 2', sans-serif;
+        }
+
+        .page-not-found-image {
+            
+            height: 75%;
+            width: 65%;
+        }
+    }
+}
