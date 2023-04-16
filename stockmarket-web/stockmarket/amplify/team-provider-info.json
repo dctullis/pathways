@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stockmarket-dev-122655-authRole",
+      "UnauthRoleArn": "arn:aws:iam::671612545476:role/amplify-stockmarket-dev-122655-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::671612545476:role/amplify-stockmarket-dev-122655-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-stockmarket-dev-122655-deployment",
+      "UnauthRoleName": "amplify-stockmarket-dev-122655-unauthRole",
+      "StackName": "amplify-stockmarket-dev-122655",
+      "StackId": "arn:aws:cloudformation:us-east-1:671612545476:stack/amplify-stockmarket-dev-122655/fbc1a130-0c3e-11ed-aef0-0acc02ed2d31",
+      "AmplifyAppId": "d37q9ogsvatm3e"
+    }
+  },
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stockmarket-develop-123040-authRole",
+      "UnauthRoleArn": "arn:aws:iam::671612545476:role/amplify-stockmarket-develop-123040-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::671612545476:role/amplify-stockmarket-develop-123040-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-stockmarket-develop-123040-deployment",
+      "UnauthRoleName": "amplify-stockmarket-develop-123040-unauthRole",
+      "StackName": "amplify-stockmarket-develop-123040",
+      "StackId": "arn:aws:cloudformation:us-east-1:671612545476:stack/amplify-stockmarket-develop-123040/81d9f010-0c3f-11ed-9200-0ad99519b727",
+      "AmplifyAppId": "d37q9ogsvatm3e"
+    },
+    "categories": {
+      "auth": {
+        "stockmarketCognito": {}
+      }
+    }
+  }
+}
