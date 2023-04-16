@@ -1,0 +1,10 @@
+{
+    "companyDetails": [
+      {
+        "id": 0,
+        "companyCode": "string",
+        "stockPrice": 0,
+        "stockPriceDateTime": "2022-08-15T00:09:50.369Z"
+      }
+    ]
+  }

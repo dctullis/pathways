@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EStockMarketApplication<e-stock-market>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fse.EStockMarketApplication",
+            "projectName": "e-stock-market",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

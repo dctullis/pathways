@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  backend:
+    image: company-service
+    build: .
+    ports:
+      - 8080:8080
+    environment:
+      MONGO_DB_URI: mongodb+srv://dctullis:lv0WFxN1lBPiXpq9@cluster0.mppps.mongodb.net/?retryWrites=true&w=majority
+      MONGO_DB_NAME: company 

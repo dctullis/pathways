@@ -1,0 +1,8 @@
+{
+    "companyCode": "string",
+    "companyName": "string",
+    "companyCEO": "string",
+    "companyTurnover": 88888888,
+    "companyWebsite": "string",
+    "listedStockExchange": "string"
+}

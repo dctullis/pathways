@@ -1,0 +1,6 @@
+projectKey=stockmarket
+serverUrl=http://localhost:7000
+serverVersion=9.5.0.56709
+dashboardUrl=http://localhost:7000/dashboard?id=stockmarket
+ceTaskId=AYNyEjL5V0jD38xnjFAg
+ceTaskUrl=http://localhost:7000/api/ce/task?id=AYNyEjL5V0jD38xnjFAg

@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  backend-3:
+    build: .
+    ports:
+      - 8080:8080
+    environment:
+      MYSQL_URL: jdbc:mysql://market-db.cuy9nn7txuuf.us-east-1.rds.amazonaws.com:3306/stockmarket
+      MYSQL_USERNAME: admin
+      MYSQL_PASSWORD: downfall2

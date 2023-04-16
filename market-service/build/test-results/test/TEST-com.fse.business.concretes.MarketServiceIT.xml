@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fse.business.concretes.MarketServiceIT" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-15T23:48:55" hostname="DESKTOP-7PK3BH1" time="0.028">
+  <properties/>
+  <testcase name="givenCompanyCodeAndStockPrice_whenSaveStockPrice_thenNothing()" classname="com.fse.business.concretes.MarketServiceIT" time="0.018"/>
+  <testcase name="getStockPrices_ShouldReturn()" classname="com.fse.business.concretes.MarketServiceIT" time="0.005"/>
+  <testcase name="givenCompanyCode_whenDeleteCompany_thenNothing()" classname="com.fse.business.concretes.MarketServiceIT" time="0.003"/>
+  <system-out><![CDATA[2022-10-15 18:48:55.549  INFO 31344 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.fse.business.concretes.MarketServiceIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-15 18:48:55.554  INFO 31344 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-10-15 18:48:55.555  INFO 31344 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@799fb45e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f7ba0af, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5b23c1f6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3f4964f2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3bf01a01, org.springframework.test.context.support.DirtiesContextTestExecutionListener@299cab08, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c75e3bc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@186f7434, org.springframework.test.context.event.EventPublishingTestExecutionListener@2374452a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ffc6ea7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c5708e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ffa078d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e26564d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@42238078, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5627b8eb]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.0)
+
+2022-10-15 18:48:55.580  INFO 31344 --- [    Test worker] c.f.business.concretes.MarketServiceIT   : Starting MarketServiceIT using Java 18.0.2 on DESKTOP-7PK3BH1 with PID 31344 (started by David in C:\Users\David\Documents\coding\Cognizant\projects\market-service)
+2022-10-15 18:48:55.580  INFO 31344 --- [    Test worker] c.f.business.concretes.MarketServiceIT   : No active profile set, falling back to 1 default profile: "default"
+2022-10-15 18:48:55.592  INFO 31344 --- [    Test worker] c.f.business.concretes.MarketServiceIT   : Started MarketServiceIT in 0.035 seconds (JVM running for 3.952)
+2022-10-15 18:48:55.617  INFO 31344 --- [    Test worker] c.fse.business.concretes.MarketService   : 2022-10-15T18:48:55.615684600
+2022-10-15 18:48:55.617  INFO 31344 --- [    Test worker] c.fse.business.concretes.MarketService   : com.fse.business.abstracts.StockPrices@7672960e
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
